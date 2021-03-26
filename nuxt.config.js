@@ -39,7 +39,7 @@ const create = async (feed) => {
 
 export default {
   // ssr: false,
-  // target: 'static',
+  target: 'static',
   head: {
     title: global.siteName,
     meta: [{
