@@ -9,6 +9,8 @@ sections:
   label: Products
   create: none
   match: "**/*"
+  templates:
+  - product
 - type: document
   path: site.config.json
   label: Configuration

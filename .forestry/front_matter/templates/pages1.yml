@@ -2,6 +2,8 @@
 label: Pages1
 hide_body: false
 fields:
-- type: file
-  name: image
+- name: image
+  type: text
+  config:
+    required: false
   label: image
