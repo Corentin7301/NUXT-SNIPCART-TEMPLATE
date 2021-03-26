@@ -1,26 +1,26 @@
 <template>
   <div class=" text-right top-8 lg:sticky lg:top-5">
     <!-- FACEBOOK SHARE -->
-    <ShareNetwork network="facebook" :url="`${this.$global.siteUrl}articles/${page.slug}`" :title="page.title"
+    <ShareNetwork network="facebook" :url="`${this.$global.siteUrl}products/${page.slug}`" :title="page.title"
       :description="page.description" quote="" hashtags="">
       <i class="fab fa-facebook-square socialShare"></i>
     </ShareNetwork>
     <!-- LINKEDIN SHARE -->
-    <ShareNetwork network="linkedin" :url="`${this.$global.siteUrl}articles/${page.slug}`" :title="page.title"
+    <ShareNetwork network="linkedin" :url="`${this.$global.siteUrl}products/${page.slug}`" :title="page.title"
       :description="page.description">
       <i class="fab fa-linkedin socialShare"></i>
     </ShareNetwork>
     <!-- TWITTER SHARE -->
-    <ShareNetwork network="twitter" :url="`${this.$global.siteUrl}articles/${page.slug}`" :title="page.title"
+    <ShareNetwork network="twitter" :url="`${this.$global.siteUrl}products/${page.slug}`" :title="page.title"
       :description="page.description">
       <i class="fab fa-twitter-square socialShare"></i>
     </ShareNetwork>
     <!-- EMAIL SHARE -->
-    <ShareNetwork network="email" :url="`$this.$global.siteUrl}articles/${page.slug}`" :title="page.title"
+    <ShareNetwork network="email" :url="`$this.$global.siteUrl}products/${page.slug}`" :title="page.title"
       :description="page.description">
       <i class="fas fa-envelope socialShare"></i>
     </ShareNetwork>
-    <ShareNetwork network="sms" :url="`${this.$global.siteUrl}articles/${page.slug}`" :title="page.title"
+    <ShareNetwork network="sms" :url="`${this.$global.siteUrl}products/${page.slug}`" :title="page.title"
       :description="page.description">
       <i class="fas fa-phone-square-alt lg:hidden socialShare"></i>
     </ShareNetwork>

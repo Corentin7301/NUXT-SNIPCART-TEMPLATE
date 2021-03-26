@@ -1,13 +1,13 @@
 ---
-id: 3
-price: 40
-url: /articles/vautour
-name: "Photo de vautour"
-image: "https://res.cloudinary.com/corentin7301/image/upload/f_auto,q_auto/v1/corentinperroux.fr/animaliere/Vautours7_haidqj.jpg"
-description: Photo de vautour du Vercors
+id: 6
+price: 50
+url: /products/bouquetin
+name: "Photo de bouquetin"
+image: "https://res.cloudinary.com/corentin7301/image/upload/f_auto,q_auto/v1/corentinperroux.fr/animaliere/Bouquetin2_raossb.jpg"
+description: Photo de bouquetin de Maurienne
 ---
 
-## Vautour fauve
+## Bouquetin
 
 Le Vautour fauve (Gyps fulvus), ou anciennement le griffon1, est une espèce d'oiseaux nécrophage de la famille des Accipitridae.
 

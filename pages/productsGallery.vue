@@ -10,16 +10,16 @@
       </button>
     </div>
     <div class=" flex justify-around flex-wrap">
-      <div class="card flex flex-col items-center w-1/4 mx-3" v-for="article of articles" :key="article.slug">
-        <nuxt-link :to="{ name: 'articles-slug', params: { slug: article.slug } }"
+      <div class="card flex flex-col items-center w-1/4 mx-3" v-for="product of products" :key="product.slug">
+        <nuxt-link :to="{ name: 'products-slug', params: { slug: product.slug } }"
           class="hover:text-primaryColor transition-all">
-          <img :src="article.image" :alt="article.name" class=" w-full rounded-xl">
-          <p class=" text-center mt-3">{{ article.name }}</p>
+          <img :src="product.image" :alt="product.name" class=" w-full rounded-xl">
+          <p class=" text-center mt-3">{{ product.name }}</p>
         </nuxt-link>
         <button
           class="snipcart-add-item mt-5 mb-28 bg-primaryColor rounded-md py-2 px-3 transition-all hover:bg-lightColor hover:text-primaryColor"
-          :data-item-id="article.id" :data-item-price="article.price" :data-item-url="article.url"
-          :data-item-name="article.name" :data-item-image="article.image" :data-item-description="article.description">
+          :data-item-id="product.id" :data-item-price="product.price" :data-item-url="product.url"
+          :data-item-name="product.name" :data-item-image="product.image" :data-item-description="product.description">
           Ajouter au panier
         </button>
       </div>
@@ -37,9 +37,9 @@
     async asyncData({
       $content,
     }) {
-      const articles = await $content('articles').fetch()
+      const products = await $content('products').fetch()
       return {
-        articles
+        products
       }
     },
   }

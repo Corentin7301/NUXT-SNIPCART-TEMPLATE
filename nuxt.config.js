@@ -14,7 +14,7 @@ const create = async (feed) => {
   const {
     $content
   } = require('@nuxt/content')
-  const posts = await $content('articles').fetch()
+  const posts = await $content('products').fetch()
 
   feed.addCategory('Nuxt.js')
 
@@ -30,7 +30,7 @@ const create = async (feed) => {
       title: post.title,
       slug: post.slug,
       description: post.description,
-      link: `${global.siteUrl}/articles/${post.slug}`,
+      link: `${global.siteUrl}/products/${post.slug}`,
       content: post.bodyText
 
     })
@@ -208,7 +208,7 @@ export default {
     path: '/feed.xml',
     cacheTime: 1000 * 60 * 15,
     type: 'rss2',
-    data: ["articles"]
+    data: ["products"]
   }, ],
 
 
@@ -220,12 +220,12 @@ export default {
         $content
       } = require('@nuxt/content')
 
-      const articles = await $content('articles').only(['path', 'createdAt']).fetch()
-      const dynamicArticles = articles.map((article) => {
+      const products = await $content('products').only(['path', 'createdAt']).fetch()
+      const dynamicPages = products.map((product) => {
         return {
-          url: article.path,
+          url: product.path,
           priority: 1,
-          lastmod: article.createdAt
+          lastmod: product.createdAt
         }
       })
       // ADD STATIC PAGES IN SITEMAP HERE
@@ -233,7 +233,7 @@ export default {
         "/contact",
         // ...
       ]
-      return [...dynamicArticles, ...staticPages]
+      return [...dynamicPages, ...staticPages]
     },
   },
 

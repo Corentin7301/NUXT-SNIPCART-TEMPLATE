@@ -1,7 +1,7 @@
 ---
 id: 1
 price: 50
-url: /articles/chamois
+url: /products/chamois
 name: "Photo de Chamois"
 image: "https://res.cloudinary.com/corentin7301/image/upload/f_auto,q_auto/v1/corentinperroux.fr/animaliere/chamois1_lce1ei.jpg"
 description: Photo de chamois de Chartreuse

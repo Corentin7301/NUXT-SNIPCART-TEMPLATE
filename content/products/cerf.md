@@ -1,7 +1,7 @@
 ---
 id: 2
 price: 60
-url: /articles/cerf
+url: /products/cerf
 name: "Photo de Cerf"
 image: "https://res.cloudinary.com/corentin7301/image/upload/f_auto,q_auto/v1/corentinperroux.fr/animaliere/cerf4_arxhg9.jpg"
 description: Photo de cerf des Bauges

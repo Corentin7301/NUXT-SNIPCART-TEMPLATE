@@ -1,7 +1,7 @@
 ---
 id: 5
 price: 50
-url: /articles/grande-aigrette
+url: /products/grande-aigrette
 name: "Photo de Grande Aigrette"
 image: "https://res.cloudinary.com/corentin7301/image/upload/f_auto,q_auto/v1/corentinperroux.fr/animaliere/Grande_Aigrette_syzevi.jpg"
 description: Photo de Grande Aigrette du Lac du Bourget

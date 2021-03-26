@@ -1,7 +1,7 @@
 <template>
   <div class=" ">
     <div class="flex justify-between">
-    <nuxt-link to="/commerce">
+    <nuxt-link to="/productsGallery">
       <svg class="w-10 h-10 ml-10 hover:text-primaryColor transition-all" fill="currentColor" viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd"
@@ -18,16 +18,16 @@
       </button>
     </div>
     <div class=" flex flex-col items-center">
-      <h1 class=" text-3xl">{{article.name}}</h1>
-      <img :src="article.image" :alt="article.name" class=" w-1/2 my-8">
-      <h2 class=" text-2xl">{{article.description}}</h2>
+      <h1 class=" text-3xl">{{product.name}}</h1>
+      <img :src="product.image" :alt="product.name" class=" w-1/2 my-8">
+      <h2 class=" text-2xl">{{product.description}}</h2>
 
-      <nuxt-content :document="article" class=" w-1/2 m-auto" />
+      <nuxt-content :document="product" class=" w-1/2 m-auto" />
 
       <button
         class="snipcart-add-item mt-5 mb-8 bg-primaryColor rounded-md py-2 px-3 transition-all hover:bg-lightColor hover:text-primaryColor"
-        :data-item-id="article.id" :data-item-price="article.price" :data-item-url="article.url"
-        :data-item-name="article.name" :data-item-image="article.image" :data-item-description="article.description">
+        :data-item-id="product.id" :data-item-price="product.price" :data-item-url="product.url"
+        :data-item-name="product.name" :data-item-image="product.image" :data-item-description="product.description">
         Ajouter au panier
       </button>
     </div>
@@ -46,9 +46,9 @@
       params
     }) {
       const slug = params.slug
-      const article = await $content('articles', slug).fetch()
+      const product = await $content('products', slug).fetch()
       return {
-        article
+        product
       }
     },
   }

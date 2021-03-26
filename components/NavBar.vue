@@ -16,8 +16,8 @@
             exactActiveClass: 'exact'
           },
           {
-            name: 'Commerce',
-            page: '/commerce',
+            name: 'Produits',
+            page: '/productsGallery',
             exactActiveLink: 'exact'
           },
           {

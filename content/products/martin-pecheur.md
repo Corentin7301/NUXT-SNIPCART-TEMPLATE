@@ -1,7 +1,7 @@
 ---
 id: 4
 price: 40
-url: /articles/martin-pecheur
+url: /products/martin-pecheur
 name: "Photo de Martin pêcheur"
 image: "https://res.cloudinary.com/corentin7301/image/upload/f_auto,q_auto/v1/corentinperroux.fr/animaliere/Martin-pecheur_sootgb.jpg"
 description: Photo de Martin pêcheur d'Europe du Lac du Bourget
