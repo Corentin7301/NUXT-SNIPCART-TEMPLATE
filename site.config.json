@@ -1,0 +1,26 @@
+    {
+        "siteUrl": "https://portfolio.corentinperroux.fr",
+        "siteName": "NUXT-FORESTRY-TEMPLATE",
+        "siteSubname": "NUXT-FORESTRY-TEMPLATE",
+        "contactTitle": "CONTACT PAGE of NUXT-FORESTRY-TEMPLATE",
+        "author": "CORENTIN PERROUX",
+        "authorEmail": "corentin7301@gmail.com",
+        "copyright": "CORENTIN PERROUX",
+        "siteMetaDescription": "NUXT-FORESTRY-TEMPLATE by Corentin PERROUX",
+        "contactMetaDescription": "CONTACT PAGE of NUXT-FORESTRY-TEMPLATE by Corentin PERROUX",
+        "contactRedirectMessage": "Merci pour votre message ! Nous vous répondrons dès que possible.",
+        "twitterUrl":"https://twitter.com/CorentinPerroux",
+        "twitterAccount":"@CorentinPerroux",
+        "twitterCardImage":"https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg",
+        "mainImage":"https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg",
+        "siteType": "website",
+        "style" : {
+            "colors": {
+                "primaryColor": "#41b883",
+                "backgroundColor": "#606f7b",
+                "footerBackgroundColor": "#41414141",
+                "lightColor": "#eeeeee",
+                "darkColor": "#41414141"
+            }
+        }
+    }

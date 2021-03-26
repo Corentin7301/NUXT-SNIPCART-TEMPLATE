@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-blog-template-by-corentin-perroux",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "serve": "nuxt serve",
+    "production": "npm run build && nuxt generate",
+    "preview": "nuxt -p 8080"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.13.1",
+    "@nuxtjs/cloudinary": "^1.0.3-beta-3",
+    "@nuxtjs/dayjs": "^1.3.0",
+    "@nuxtjs/feed": "^2.0.0",
+    "@nuxtjs/markdownit": "^2.0.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "nuxt": "^2.14.7",
+    "reading-time": "^1.3.0",
+    "vue-social-sharing": "^3.0.5",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/tailwindcss": "^3.4.3",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^4.14.1",
+    "postcss": "^7.0.35",
+    "sass-loader": "^10.0.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+  }
+}

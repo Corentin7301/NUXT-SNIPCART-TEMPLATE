@@ -1,0 +1,7 @@
+---
+label: Pages1
+hide_body: false
+fields:
+- type: file
+  name: image
+  label: image
