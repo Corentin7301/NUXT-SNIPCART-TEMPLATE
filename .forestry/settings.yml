@@ -7,7 +7,6 @@ sections:
 - type: document
   path: site.config.json
   label: Configuration
-  match: "**/*"
 - type: directory
   path: content/pages
   label: Pages
