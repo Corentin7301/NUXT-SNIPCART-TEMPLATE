@@ -16,6 +16,11 @@
             exactActiveClass: 'exact'
           },
           {
+            name: 'Commerce',
+            page: '/commerce',
+            exactActiveLink: 'exact'
+          },
+          {
             name: 'Contact',
             page: '/contact',
             exactActiveLink: 'exact'

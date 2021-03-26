@@ -4,9 +4,9 @@ import global from './site.config.json'
 const create = async (feed) => {
   feed.options = {
     title: global.siteUrl,
-      // FOR PRODUCTION
+    // FOR PRODUCTION
     link: `${global.siteUrl}/feed.xml`,
-      // FOR DEV
+    // FOR DEV
     // link: 'http://localhost:3000/feed.xml',
     description: global.siteMetaDescription
   }
@@ -152,15 +152,19 @@ export default {
     ]
   },
   css: ['~/assets/css/main.css', '~/assets/css/colors.css', '~/assets/css/utility.css', '~/assets/css/scrollbar.css', '~/assets/css/transition.css', '~/assets/css/tailwind.css'],
-  plugins: [
-    { src: '@/plugins/variables.js' },
-    {src: '@/plugins/Vuelidate'},
+  plugins: [{
+      src: '@/plugins/variables.js'
+    },
+    {
+      src: '@/plugins/Vuelidate'
+    },
   ],
   // auto import des comp.
   components: true,
   buildModules: [
     '@nuxtjs/google-analytics',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/snipcart',
   ],
 
   googleAnalytics: {
@@ -170,6 +174,18 @@ export default {
     googleAnalytics: {
       id: process.env.GOOGLE_ANALYTICS_ID
     },
+  },
+
+  snipcart: {
+    // Options available
+    // version: /* not required default value is v3.0.23 */ ,
+    key: process.env.data_api_key /* required https://app.snipcart.com/dashboard/account/credentials */ ,
+    // attributes: /* not required default [] */ ,
+    // locales: {} /* not required */
+    attributes: [
+      ['data-config-modal-style', 'side']
+      // ['data-config-add-product-behavior', 'none']
+    ],
   },
 
 
@@ -226,7 +242,7 @@ export default {
     preset: 'default',
     linkify: true,
     breaks: true,
-        // for add div and attributes in md file
+    // for add div and attributes in md file
     // use: ['markdown-it-div', 'markdown-it-attrs'],
   },
 
@@ -265,10 +281,12 @@ export default {
     'content:file:beforeInsert': (document) => {
       const md = require('markdown-it')();
       if (document.extension === '.md') {
-        const { text } = require('reading-time')(document.text)
-  
+        const {
+          text
+        } = require('reading-time')(document.text)
+
         document.readingTime = text
-  
+
         const mdToHtml = md.render(document.text)
         document.bodyText = mdToHtml
       }
