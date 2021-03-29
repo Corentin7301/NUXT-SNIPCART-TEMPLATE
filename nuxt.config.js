@@ -41,6 +41,9 @@ export default {
   // ssr: false,
   target: 'static',
   head: {
+    htmlAttrs: {
+      lang: 'fr'
+    },
     title: global.siteName,
     meta: [{
         charset: 'utf-8'

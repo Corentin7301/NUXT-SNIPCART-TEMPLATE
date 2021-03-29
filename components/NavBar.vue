@@ -1,7 +1,7 @@
 <template>
-  <div class=" mb-12">
+  <div class=" flex mb-12 text-center">
     <nuxt-link v-for="item in items" :key="item.name" :to="item.page"
-      class=" mx-5 text-xl transition-all normal-case hover:text-primaryColor" :exact="item.exactActiveClass">
+      class=" mx-3 lg:mx-5 text-xl transition-all normal-case hover:text-primaryColor" :exact="item.exactActiveClass">
       {{item.name}}</nuxt-link>
   </div>
 </template>
