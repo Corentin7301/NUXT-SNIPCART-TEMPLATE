@@ -4,7 +4,7 @@
 
 ## DEPLOY ON NETLIFY :
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/Corentin7301/NUXT-FORESTRY-TEMPLATE"><img src="https://camo.githubusercontent.com/417d890ba67c98ad5856b715343a61cdbf07d72b9bd5b79dd45d43de634c29ea/68747470733a2f2f7777772e6e65746c6966792e636f6d2f696d672f6465706c6f792f627574746f6e2e737667" alt="netlify deploy button"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/Corentin7301/NUXT-SNIPCART-TEMPLATE"><img src="https://camo.githubusercontent.com/417d890ba67c98ad5856b715343a61cdbf07d72b9bd5b79dd45d43de634c29ea/68747470733a2f2f7777772e6e65746c6966792e636f6d2f696d672f6465706c6f792f627574746f6e2e737667" alt="netlify deploy button"></a>
 
 **Si le repository créé est vide utilisez le bouton "Use this template" de Github. Si vous préférez importer le projet sur Forestry, utilisez le buton ci-dessous.**
 
@@ -16,9 +16,9 @@ If the created repository is empty use the "Use this template" button of Github.
 
 If you have already used the "Deploy to Netlify" button and the created repository is not empty, do not use this button.
 
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=corentin7301/nuxt-forestry-template&engine=other&branch=main)
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=corentin7301/nuxt-snipcart-template&engine=other&branch=main)
 
-## REPO-NAME: https://github.com/Corentin7301/NUXT-FORESTRY-TEMPLATE
+## REPO-NAME: https://github.com/Corentin7301/NUXT-SNIPCART-TEMPLATE
 
 *********
 ## Français :
@@ -30,19 +30,19 @@ If you have already used the "Deploy to Netlify" button and the created reposito
 
 Modifiez les données dans le fichier **/site.config.json** :
 
-* #### **siteUrl** : Nom de domaine du site. Exemple : "https://nuxt-forestry-template.fr"
+* #### **siteUrl** : Nom de domaine du site. Exemple : "https://nuxt-snipcart-template.fr"
 
 Il apparaîtra dans la **configuration du feed**, **les metadonnées du site**, **l'url canonique** et la **configuration du sitemap**.
 
-* #### **siteName** : Nom du site. Exemple : "NUXT-FORESTRY-TEMPLATE"
+* #### **siteName** : Nom du site. Exemple : "NUXT-SNIPCART-TEMPLATE"
 
 Il apparaîtra dans les **metadonnées du site et de la page index** et la **balise alt de l'image de la page "contact"**.
 
-* #### **siteTitle** : Sous titre du site. Exemple : "NUXT-FORESTRY-TEMPLATE"
+* #### **siteTitle** : Sous titre du site. Exemple : "NUXT-SNIPCART-TEMPLATE"
 
 Il apparaîtra dans le **h2 du header**.
 
-* #### **contactTitle** : Nom de la page contact. Exemple : "CONTACT of NUXT-FORESTRY-TEMPLATE"
+* #### **contactTitle** : Nom de la page contact. Exemple : "CONTACT of NUXT-SNIPCART-TEMPLATE"
 
 Il apparaîtra dans les **metadonnées de la page contact**.
 
@@ -58,12 +58,12 @@ Il apparaîtra dans le **feed** et dans le **lien du copyright**.
 
 Il apparaîtra dans le **copyright**.
 
-* #### **siteMetaDescription** : Metadescription du site. Exemple : "NUXT-FORESTRY-TEMPLATE by Corentin PERROUX"
+* #### **siteMetaDescription** : Metadescription du site. Exemple : "NUXT-SNIPCART-TEMPLATE by Corentin PERROUX"
 
 Il apparaîtra dans les **metadonnées du site** et de **la page index**.
 
 
-* #### **contactMetaDescription** : Metadescription de la page contact. Exemple : "CONTACT of NUXT-FORESTRY-TEMPLATE by Corentin PERROUX"
+* #### **contactMetaDescription** : Metadescription de la page contact. Exemple : "CONTACT of NUXT-SNIPCART-TEMPLATE by Corentin PERROUX"
 
 Il apparaîtra dans **la page contact**.
 
@@ -80,11 +80,11 @@ Il apparaîtra dans la **configuration de la social card de twitter**.
 
 Il apparaîtra dans la **configuration de la social card de twitter**.
 
-* #### **twitterCardImage** : Image de la card Twitter. Exemple : "https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg"
+* #### **twitterCardImage** : Image de la card Twitter. Exemple : "https://res.cloudinary.com/corentin7301/image/upload/v1616770929/nuxt-snipcart-template/nuxt-snipcart-template_klekhm.jpg"
 
 Il apparaîtra dans la **configuration de la social card de twitter**.
 
-<!-- * #### **mainImage** : Image principale du site. Exemple : "https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg"
+<!-- * #### **mainImage** : Image principale du site. Exemple : "https://res.cloudinary.com/corentin7301/image/upload/v1616770929/nuxt-snipcart-template/nuxt-snipcart-template_klekhm.jpg"
 
 Il apparaîtra dans la **configuration des cards de partage social**, dans **la page contact** et dans **la page index**. -->
 
@@ -124,7 +124,7 @@ Il apparaîtra dans la **configuration des cards de partage social**.
 
     * **description**: Description de l'article. Exemple : NUXT-BLOG-TEMPLATE by Corentin PERROUX -->
 
-    * **image** : Url de image principale. Exemple : https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg
+    * **image** : Url de image principale. Exemple : https://res.cloudinary.com/corentin7301/image/upload/v1616770929/nuxt-snipcart-template/nuxt-snipcart-template_klekhm.jpg
 
   * Pour sauvegarder les modifications il suffit de "commit" et "push".
 
@@ -137,7 +137,44 @@ Il apparaîtra dans la **configuration des cards de partage social**.
   * Cliquer sur "Other".
   * Choisir le service d'hébergement du projet.
   * Choisir le repository.
-  * Modifier et ajouter des articles dans l'onglet "Pages" du la sidebar.
+  * Modifier et ajouter des articles dans l'onglet "Pages" de la sidebar.
+
+
+## Modifier un produit :
+
+* ### Avec les fichiers .md :
+
+**DANS LE DOSSIER /content/products**
+
+  * Ecrire selon la [syntaxe Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+  * Commencer par un frontmatter comprenant :
+
+
+    <!-- * **title**: Nom de l'article. Exemple : NUXT-BLOG-TEMPLATE 1
+
+    * **description**: Description de l'article. Exemple : NUXT-BLOG-TEMPLATE by Corentin PERROUX -->
+    * **id** : Identifiant du produit, doit être **unique** ! Exemple : 1 ; "tshirt_un"
+    * **price** : Prix du produit. Exemple : 10
+    * **url** : Url de la page produit (le fichier markdown) du produit. Exemple : /products/tshirt_un
+    * **name** : Nom du produit. Exemple : T-shirt
+    * **image** : Url du produit. Exemple : https://www.loopper.fr/vetements-publicitaires/t-shirts-publicitaires/t-shirt-unisexe-manches-courtes-heros?view=googleshopping
+    * **description** : Petite description du produit. Exemple : T-shirt blanc unisexe
+
+    Le texte compris dans le contenu du fichier sera le texte de description. Il est possible d'inclure des titres sauf "h1".
+
+  * Pour sauvegarder les modifications il suffit de "commit" et "push".
+
+* ### Avec Forestry.io :
+
+**Si vous n'avez pas utilisé sur le bouton "Import to Forestry**
+
+  * Créer un compte sur le site [Forestry.io](https://forestry.io/).
+  * Cliquer sur "Add site".
+  * Cliquer sur "Other".
+  * Choisir le service d'hébergement du projet.
+  * Choisir le repository.
+  * Modifier et ajouter des produits dans l'onglet "Products" de la sidebar.
 
 ## Variables d'environnement
 
@@ -154,20 +191,23 @@ API_KEY=----------
 
 API_SECRET=--------
 
+* **SNIPCART** : Variable d'environnement de Snipcart.
+data_api_key=--------
+
 
 
 ## Favicon
 
 Remplacer le favicon dans le dossier **/static**.
 
-Modifier le nom du favicon (si besoin) dans le fichier **/nuxt.config.js** à la **ligne 132**.
+Modifier le nom du favicon (si besoin) dans le fichier **/nuxt.config.js** à la **ligne 134**.
 
 
 ## Sitemap : 
 
 ### Disponible à l'adresse : **/sitemap.xml**
 
-Ajouter les pages statiques (index, contact,...) dans le fichier  **/nuxt.config.js** à la **ligne 216**.
+Ajouter les pages statiques (index, contact,...) dans le fichier  **/nuxt.config.js** à la **ligne 236**.
 
 
 ## Feed RSS : 
@@ -178,7 +218,7 @@ Ajouter les pages statiques (index, contact,...) dans le fichier  **/nuxt.config
 
 ## Dayjs : 
 
-Modifier la date du pays dans le fichier  **/nuxt.config.js** aux **lignes 234, 235**.
+Modifier la date du pays dans le fichier  **/nuxt.config.js** aux **lignes 254, 255**.
 
 
 
@@ -203,6 +243,39 @@ Pour utiliser Nuxt Cloudinary :
 [Nuxt Cloudinary documentation](https://cloudinary.nuxtjs.org/)
 
 
+## Snipcart :
+
+Snicart est le système de e-commerce.
+
+Site web & dashboard : [https://snipcart.com/fr](https://snipcart.com/fr)
+
+Pour ajouter un produit :
+
+```html
+<button class="snipcart-add-item"><button>
+```
+
+Pour ajouter un panier :
+
+```html
+<button class="snipcart-checkout"><button>
+```
+
+Pour ajouter le prix total du panier :
+
+```html
+<span class="snipcart-total-price"><span>
+```
+
+Pour ajouter le nombre total de produits dans le panier :
+
+```html
+<span class="snipcart-items-count"><span>
+```
+
+Pour changer la langue du panier, il faut modifier la langue de la page dans le fichier **nuxt.config.js, ligne 45**
+
+
 ## Dépendances installées :
 
 * **nuxt**
@@ -213,6 +286,7 @@ Pour utiliser Nuxt Cloudinary :
 * **@nuxtjs/markdownit**
 * **vue-social-sharing/nuxt**
 * **@nuxtjs/sitemap**
+***@nuxtjs/snipcart**
 * **@nuxtjs/google-analytics**
 * **@nuxtjs/tailwindcss**
 
@@ -225,7 +299,6 @@ Pour utiliser Nuxt Cloudinary :
 * **generate**: "nuxt generate",
 * **serve**: "nuxt serve",
 * **production**: "npm run build && nuxt generate",
-* **preview**: "nuxt -p 8080"
 
 
 ## NETLIFY | PRODUCTION
@@ -271,18 +344,18 @@ Install node and dependencies : ```npm i```
 
 Change site datas in **/site.config.json** file.
 
-* #### **siteUrl** : Domain name of site. Example : "https://nuxt-forestry-template.fr"
+* #### **siteUrl** : Domain name of site. Example : "https://nuxt-snipcart-template.fr"
 
 It will appear in the **feed configuration**, **site metadatas**, **canonical url** and the **sitemap configuration**.
 
-* #### **siteName** : Site name. Example : "NUXT-FORESTRY-TEMPLATE"
+* #### **siteName** : Site name. Example : "NUXT-SNIPCART-TEMPLATE"
 
 It will appear in the **Site and index metadatas** and the **alt tag of page "contact" image**.
 
-* #### **siteTitle** : Site subtitle. Example : "NUXT-FORESTRY-TEMPLATE"
+* #### **siteTitle** : Site subtitle. Example : "NUXT-SNIPCART-TEMPLATE"
 
 It will appear in the **header h2**.
-* #### **contactTitle** : Contact page name. Example : "CONTACT of NUXT-FORESTRY-TEMPLATE"
+* #### **contactTitle** : Contact page name. Example : "CONTACT of NUXT-SNIPCART-TEMPLATE"
 
 It will appear in the **contact page metadatas (_page.vue)**.
 
@@ -298,11 +371,11 @@ It will appear in the **feed** and in the **copyright link**.
 
 It will appear in the **copyright**.
 
-* #### **siteMetaDescription** : Site meta-description. Example : "NUXT-FORESTRY-TEMPLATE by Corentin PERROUX"
+* #### **siteMetaDescription** : Site meta-description. Example : "NUXT-SNIPCART-TEMPLATE by Corentin PERROUX"
 
 It will appear in the **site metadatas** and the **index page**.
 
-* #### **contactMetaDescription** : Contact page meta-description. Example : "CONTACT of NUXT-FORESTRY-TEMPLATE by Corentin PERROUX"
+* #### **contactMetaDescription** : Contact page meta-description. Example : "CONTACT of NUXT-SNIPCART-TEMPLATE by Corentin PERROUX"
 
 It will appear in **contact page**.
 
@@ -319,13 +392,13 @@ It will appear in the **twitter social card configuration**.
 
 It will appear in the **twitter social card configuration**.
 
-* #### **twitterCardImage** : Twitter card image. Example : "https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg"
+* #### **twitterCardImage** : Twitter card image. Example : "https://res.cloudinary.com/corentin7301/image/upload/v1616770929/nuxt-snipcart-template/nuxt-snipcart-template_klekhm.jpg"
 
 It will appear in the **twitter social card configuration**.
 
-* #### **mainImage** : Site main image. Example : "https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg"
+<!-- * #### **mainImage** : Site main image. Example : "https://res.cloudinary.com/corentin7301/image/upload/v1616770929/nuxt-snipcart-template/nuxt-snipcart-template_klekhm.jpg"
 
-It will appear in the **social share cards configuration**, in **contact page** and in **index page**.
+It will appear in the **social share cards configuration**, in **contact page** and in **index page**. -->
 
 * #### **siteType** : Site type. Example : "website"
 
@@ -357,7 +430,7 @@ It will appear in the **social share cards configuration**.
 
   * Start with a frontmatter including :
 
-    * **image** : Url of the illustration image of the article. Example : https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg
+    * **image** : Url of the illustration image of the article. Example : https://res.cloudinary.com/corentin7301/image/upload/v1616770929/nuxt-snipcart-template/nuxt-snipcart-template_klekhm.jpg
 
   * To save the modifications, just "commit" and "push".
 
@@ -370,12 +443,41 @@ It will appear in the **social share cards configuration**.
   * Click on "Other".
   * Choose the hosting service for the project.
   * Choose the repository.
-  * Edit and add articles in "Articles" tab of the sidebar.
+  * Edit and add pages in "Pages" tab of the sidebar.
 
 
-## Table of Contents | Toc
+## Edit a product :
 
-The Table of Contents works with articles h2 and h3. It works with HTML anchor system.
+* ### With .md files :
+
+**IN THE /content/products FOLDER**
+
+* Write according to [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+  * Start with a frontmatter including :
+
+    * **id** : Product ID, must be **unique** ! Example : 1 ; "tshirt_one"
+    * **price** : Product price. Example : 10
+    * **url** : Product page url (the markdown file) of product. Example : /products/tshirt_one
+    * **name** : Product name. Example : T-shirt
+    * **image** : Product url. Example : https://www.loopper.fr/vetements-publicitaires/t-shirts-publicitaires/t-shirt-unisexe-manches-courtes-heros?view=googleshopping
+    * **description** : Small product description. Example : Unisex white t-shirt
+
+    The text included in the content of the file will be the description text. It is possible to include titles except "h1".
+
+  * To save the modifications, just "commit" and "push".
+
+* ### With Forestry.io :
+
+**If you have not used the button "Import to Forestry**
+
+  * Create an account on [Forestry.io](https://forestry.io/) website.
+  * Click on "Add site".
+  * Click on "Other".
+  * Choose the hosting service for the project.
+  * Choose the repository.
+  * Edit and add products in "Products" tab of the sidebar.
+
 
 ## Environment variables
 
@@ -392,20 +494,24 @@ API_KEY=----------
 
 API_SECRET=--------
 
+* **SNIPCART** : Variable d'environnement de Snipcart.
+data_api_key=--------
+
+
 
 
 ## Favicon
 
 Replace favicon in **/static** folder.
 
-Edit favicon name (if necessary) in **/nuxt.config.js** file on **line 132**.
+Edit favicon name (if necessary) in **/nuxt.config.js** file on **line 134**.
 
 
 ## Sitemap : 
 
 ### Available at : **/sitemap.xml**.
 
-Add static pages (index, contact,...) in **/nuxt.config.js** file on **line 216**.
+Add static pages (index, contact,...) in **/nuxt.config.js** file on **line 236**.
 
 
 ## Feed RSS : 
@@ -416,7 +522,7 @@ Add static pages (index, contact,...) in **/nuxt.config.js** file on **line 216*
 
 ## Dayjs : 
 
-Edit country date in **/nuxt.config.js** file on **lines 234 and 235**.
+Edit country date in **/nuxt.config.js** file on **lines 254 and 255**.
 
 
 
@@ -439,7 +545,37 @@ For use Nuxt Cloudinary :
 
 [Nuxt Cloudinary documentation](https://cloudinary.nuxtjs.org/)
 
+## Snipcart :
 
+Snicart is a e-commerce systeme.
+
+Website & dashboard : [https://snipcart.com/fr](https://snipcart.com/fr)
+
+For add a product :
+
+```html
+<button class="snipcart-add-item"><button>
+```
+
+For add a cart :
+
+```html
+<button class="snipcart-checkout"><button>
+```
+
+For add a total price of the cart :
+
+```html
+<span class="snipcart-total-price"><span>
+```
+
+For add a the total number of products in the cart :
+
+```html
+<span class="snipcart-items-count"><span>
+```
+
+To change the language of the basket, you must change the language of the page in the file **nuxt.config.js, line 45**
 ## Dependencies installed :
 
 * **nuxt**
@@ -450,6 +586,7 @@ For use Nuxt Cloudinary :
 * **@nuxtjs/markdownit**
 * **vue-social-sharing/nuxt**
 * **@nuxtjs/sitemap**
+* ***@nuxtjs/snipcart**
 * **@nuxtjs/google-analytics**
 * **@nuxtjs/tailwindcss**
 
@@ -462,7 +599,6 @@ For use Nuxt Cloudinary :
 * **generate**: "nuxt generate",
 * **serve**: "nuxt serve",
 * **production**: "npm run build && nuxt generate",
-* **preview**: "nuxt -p 8080"
 
 
 ## NETLIFY | PRODUCTION
