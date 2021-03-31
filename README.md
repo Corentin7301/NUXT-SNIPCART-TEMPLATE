@@ -18,7 +18,9 @@ If you have already used the "Deploy to Netlify" button and the created reposito
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=corentin7301/nuxt-snipcart-template&engine=other&branch=main)
 
-## REPO-NAME: https://github.com/Corentin7301/NUXT-SNIPCART-TEMPLATE
+## REPO-NAME: [https://github.com/Corentin7301/NUXT-SNIPCART-TEMPLATE](https://nuxt-snipcart-template.netlify.app/)
+
+## Test url: [https://nuxt-snipcart-template.netlify.app/](https://nuxt-snipcart-template.netlify.app/)
 
 *********
 ## Français :
