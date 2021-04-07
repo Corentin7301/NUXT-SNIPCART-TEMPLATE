@@ -1,4 +1,4 @@
-# NUXT FORESTRY TEMPLATE
+# NUXT SNIPCART TEMPLATE
 
 ## Made by [Corentin PERROUX](https://github.com/Corentin7301)
 
